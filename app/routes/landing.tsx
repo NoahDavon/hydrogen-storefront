@@ -20,7 +20,7 @@ export default function Landing({}: Props) {
       <div className="w-full overflow-x-clip relative md:hidden">
         <video autoPlay loop muted src={landingVid} width={'100%'} />
         <div className=" absolute top-[5%] left-0 right-0 text-center">
-          <text className=" text-black font-extrabold text-5xl block">
+          <text className=" text-black font-extrabold text-3xl block">
             Your Tailored Comfort Hub
           </text>
           <text className="block text-xl">Starting from ... EGP</text>
@@ -46,11 +46,11 @@ export default function Landing({}: Props) {
           Your 24/7 companion
         </text>
         <div className="flex gap-2  sm:px-4 md:justify-center justify-start overflow-x-scroll overflow-y-clip">
-          <div className="sm:w-2xs md:shrink w-36 shrink-0 text-center">
+          <div className="md:w-2xs md:shrink w-36 shrink-0 text-center">
             <img src={chillingPhoto} width={'100%'} className="rounded" />
             <text className="block text-2xl">Chilling</text>
           </div>
-          <div className="sm:w-2xs md:shrink w-36 shrink-0 text-center">
+          <div className="md:w-2xs md:shrink w-36 shrink-0 text-center">
             <img src={chillingPhoto} width={'100%'} className="rounded" />
             <text className="block text-2xl">Chilling</text>
           </div>
