@@ -10,7 +10,7 @@ import cardPhoto0 from '~/assets/fadingCardsPhotos/0.png';
 import cardPhoto1 from '~/assets/fadingCardsPhotos/1.png';
 import cardPhoto2 from '~/assets/fadingCardsPhotos/2.png';
 import cardPhoto3 from '~/assets/fadingCardsPhotos/3.png';
-import landingVid from '~/assets/landingVid.MOV';
+import landingVid from '~/assets/landingVid.mov';
 type Props = {};
 
 export default function Landing({}: Props) {
@@ -46,19 +46,19 @@ export default function Landing({}: Props) {
           Your 24/7 companion
         </text>
         <div className="flex gap-2  sm:px-4 md:justify-center justify-start overflow-x-scroll overflow-y-clip">
-          <div className="md:w-2xs md:shrink w-36 shrink-0 text-center">
+          <div className="md:w-2xs md:shrink w-44 shrink-0 text-center">
             <img src={chillingPhoto} width={'100%'} className="rounded" />
             <text className="block text-2xl">Chilling</text>
           </div>
-          <div className="md:w-2xs md:shrink w-36 shrink-0 text-center">
+          <div className="md:w-2xs md:shrink w-44 shrink-0 text-center">
             <img src={chillingPhoto} width={'100%'} className="rounded" />
             <text className="block text-2xl">Chilling</text>
           </div>
-          <div className="sm:w-2xs md:shrink w-36 shrink-0 text-center">
+          <div className="md:w-2xs md:shrink w-44 shrink-0 text-center">
             <img src={chillingPhoto} width={'100%'} className="rounded" />
             <text className="block text-2xl">Chilling</text>
           </div>
-          <div className="sm:w-2xs md:shrink w-36 shrink-0 text-center">
+          <div className="md:w-2xs md:shrink w-44 shrink-0 text-center">
             <img src={chillingPhoto} width={'100%'} className="rounded" />
             <text className="block text-2xl">Chilling</text>
           </div>
